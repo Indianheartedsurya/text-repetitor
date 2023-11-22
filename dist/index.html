@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black text-white">
+    <!-- main container -->
+    <div class="flex w-3/4 m-auto flex-col main-container justify-center mt-3">
+      <h1
+        class="text-2xl w-60 m-auto text-center font-bold bg-yellow-800 rounded-md pb-1.5"
+      >
+        Text Repetitor
+      </h1>
+      <div>
+        <!-- dashboard -->
+        <div class="flex gap-3 mt-3">
+          <!-- Input area -->
+          <div class="w-1/2 bg-yellow-800 rounded-md mt-1 flex-col relative">
+            <form action="#" class="p-3 text-black">
+              <!-- input-text-box-1 -->
+              <div class="pr-1 mb-1 flex justify-between">
+                <!--  -->
+                <label class="text-yellow-200 text-xl ml-1 font-bold">
+                  Text to repeat</label
+                >
+                <input
+                  type="text"
+                  name=""
+                  id="input_text"
+                  class="bg-orange-300 w-60 relative right p-1 rounded-md placeholder:text-center placeholder:text-slate-700 autocomplete-none"
+                  placeholder="Enter the text"
+                />
+              </div>
+              <!-- input-text-box-2 -->
+              <div class="pr-1 mb-1 flex justify-between">
+                <!--  -->
+                <label class="text-yellow-200 text-xl ml-1 font-bold">
+                  Repetition</label
+                >
+                <input
+                  type="number"
+                  name=""
+                  id="input_text"
+                  class="bg-orange-300 w-60 relative right p-1 rounded-md placeholder:text-center placeholder:text-slate-700"
+                  placeholder="Enter the Number"
+                />
+              </div>
+              <!-- input-text-box-3 -->
+              <div class="pr-1 flex gap-1 justify-evenly mt-2 mb-10">
+                <!--  -->
+                <div class="flex gap-1.5">
+                  <label for="checkbox" class="text-yellow-200 ml-1"
+                    >Add Space</label
+                  >
+                  <input type="checkbox" name="" id="" class="w-4 h-4 mt-1.5" />
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="flex gap-1.5">
+                  <label for="checkbox" class="text-yellow-200 ml-1"
+                    >Add newline</label
+                  >
+                  <input type="checkbox" name="" id="" class="w-4 h-4 mt-1.5" />
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="flex gap-1.5">
+                  <label for="checkbox" class="text-yellow-200 ml-1"
+                    >Add period</label
+                  >
+                  <input type="checkbox" name="" id="" class="w-4 h-4 mt-1.5" />
+                </div>
+              </div>
+
+              <!-- input-text-box-3 -->
+              <div
+                class="pr-1 mb-1 flex justify-end mt-4 absolute bottom-0 right-3"
+              >
+                <button
+                  type="submit"
+                  class="rounded-md p-1 bg-yellow-200 mb-2 hover:bg-yellow-600 hover:text-white hover:font-bold"
+                >
+                  Repeat Text
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- input area end -->
+
+          <!-- output area -->
+          <div
+            class="w-1/2 text-center bg-customBgColor rounded-md mt-1 flex-col"
+          >
+            <div class="text-yellow-200 text-xl font-bold text-left pl-3">
+              Output :
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="3"
+              class="w-4/5 mt-2 bg-yellow-800 rounded-md border p-1"
+            ></textarea>
+            <div class="flex justify-end pr-12 mt-1">
+              <button
+                type="button"
+                class="rounded-md p-1 w-14 bg-yellow-200 hover:bg-yellow-600 hover:text-white hover:font-bold mb-2 text-black"
+              >
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- output area end -->
+      </div>
+    </div>
+    <div class="w-10 h-10"></div>
+  </body>
+</html>
